@@ -1,0 +1,26 @@
+name: Feature Request
+description: Propose an idea or enhancement for ResearchMind AI
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Share your ideas to improve ResearchMind AI!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Motivation
+      description: Is your feature request related to a specific problem or workflow?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Feature / Solution
+      description: Describe the solution you'd like to see implemented.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you considered.

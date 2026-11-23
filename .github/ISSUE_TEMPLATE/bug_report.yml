@@ -1,0 +1,38 @@
+name: Bug Report
+description: Report an issue or bug found in ResearchMind AI
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting an issue! Please provide the details below.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS version, Python version, Node version, Browser.
+      placeholder: "e.g., Windows 11, Python 3.11, Node 20, Chrome 120"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Clear and concise description of what the problem is.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Error Output
+      description: Paste any terminal or console logs here.
